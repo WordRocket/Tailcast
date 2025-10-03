@@ -5,11 +5,11 @@ import { InvitationModal } from "./InvitationModal";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 const pricingData = [
-  "Seamless integration",
-  "Real-time data visualization",
-  "Advanced predictive analytics",
-  "Collaborative environment",
-  "Responsive customer support",
+  "Custom website design",
+  "SEO optimization",
+  "Conversion rate optimization (CRO)",
+  "Mobile-first responsiveness",
+  "Dedicated project manager",
 ];
 
 export const Pricing = () => {
@@ -32,13 +32,13 @@ export const Pricing = () => {
         >
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto text-center mb-16">
-              <span className="block-subtitle">Find Your Perfect Fit</span>
+              <span className="block-subtitle">Invest in Your Online Success</span>
               <h2 className="mt-6 mb-6 text-4xl lg:text-5xl font-bold font-heading text-primaryText">
-                Choose your best plan
+                Tailored Design Packages
               </h2>
               <p className="mb-6 text-secondaryText">
-                Select the plan that suits your needs and benefit from our
-                analytics tools.
+                Choose from our flexible design packages, crafted to meet the unique needs 
+                and budgets of businesses of all sizes.
               </p>
               <label className="mx-auto bg-bgDark3 relative flex justify-between items-center group text-xl w-44 h-12 rounded-lg pr-36 pl-1 cursor-pointer">
                 <input

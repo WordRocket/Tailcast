@@ -6,22 +6,22 @@ import { TwitterIcon } from "../assets/icons/TwitterIcon";
 const footerData = [
   {
     title: "Products",
-    items: ["Services", "About Us", "News and Stories", "Roadmap"],
+    items: ["Services", "Portfolio", "Case Studies", "Blog"],
   },
   {
     title: "Important Links",
     items: [
-      "Organization Team",
-      "Our Journeys",
-      "Pricing Plans",
-      "Roadmap",
+      "About Us",
+      "Our Process",
+      "Pricing",
+      "Contact Us",
       "Terms & Conditions",
       "Privacy Policy",
     ],
   },
   {
     title: "Company",
-    items: ["About Us", "Jobs", "Press", "Contact Us"],
+    items: ["About Us", "Careers", "Press", "Contact Us"],
   },
 ];
 
