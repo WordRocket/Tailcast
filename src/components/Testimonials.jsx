@@ -41,6 +41,7 @@ export const Testimonials = () => (
       >
         <div className="block-subtitle text-center mb-6">Testimonials</div>
         <div className="block-big-title text-center mb-20 px-8 sm:px-24 md:px-48">
+        </div>
         <div className="block-big-title text-center mb-12 px-8 sm:px-24 md:px-48">
           Hear What Our Clients Say
         </div>

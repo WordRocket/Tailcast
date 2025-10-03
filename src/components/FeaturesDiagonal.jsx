@@ -57,6 +57,7 @@ export const FeaturesDiagonal = () => {
             />
           </div>
         </div>
+        </div>
       </motion.div>
       <div className="shape-divider-top-1665696661 w-full">
         <svg
