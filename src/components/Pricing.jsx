@@ -61,6 +61,7 @@ export const Pricing = () => {
                 </div>
               </label>
             </div>
+            </div>
             <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-center mt-20">
               <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
                 <div className="p-8 bg-bgDark3 rounded-3xl">
