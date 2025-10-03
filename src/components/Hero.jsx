@@ -33,7 +33,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-primaryColor/20 to-secondaryColor/20 border border-primaryColor/30 backdrop-blur-sm mb-6 sm:mt-32 mt-16">
+          <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-primaryColor/20 to-secondaryColor/20 border border-primaryColor/30 backdrop-blur-sm mb-4 sm:mt-8 mt-8">
             <div className="w-2 h-2 bg-primaryColor rounded-full mr-2 animate-pulse"></div>
             <span className="text-primaryColor text-sm sm:text-base font-semibold tracking-wide">
               Crafting Digital Experiences
@@ -45,13 +45,13 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight text-center px-4 sm:px-8 md:px-20 lg:px-4 relative">
+          <div className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-center px-4 sm:px-8 md:px-20 lg:px-4 relative">
             <h1 className="bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent leading-tight">
               <span className="inline md:hidden">Stunning Web</span>
               <span className="hidden md:inline">Stunning Web Design</span>
             </h1>
           </div>
-          <h1 className="mt-2 sm:mt-4 text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight bg-gradient-to-r from-primaryColor via-secondaryColor to-primaryColor bg-clip-text text-transparent px-4 sm:px-8 md:px-20 lg:px-4 leading-tight">
+          <h1 className="mt-1 sm:mt-2 text-3xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight bg-gradient-to-r from-primaryColor via-secondaryColor to-primaryColor bg-clip-text text-transparent px-4 sm:px-8 md:px-20 lg:px-4 leading-tight">
             for Your Business
           </h1>
         </motion.div>
@@ -60,14 +60,14 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <div className="max-w-2xl mx-auto mt-8 mb-12">
-            <h2 className="text-secondaryText text-lg lg:text-xl xl:text-2xl leading-relaxed px-6 sm:px-12">
+          <div className="max-w-2xl mx-auto mt-4 mb-8">
+            <h2 className="text-secondaryText text-base lg:text-lg xl:text-xl leading-relaxed px-6 sm:px-12">
               Elevate your online presence with bespoke web design that drives engagement, 
               improves SEO, and boosts conversions.
             </h2>
             
             {/* Key benefits pills */}
-            <div className="flex flex-wrap justify-center gap-3 mt-8 px-4">
+            <div className="flex flex-wrap justify-center gap-3 mt-6 px-4">
               <div className="px-4 py-2 bg-bgDark3/50 backdrop-blur-sm rounded-full border border-mainBorder">
                 <span className="text-sm text-primaryText font-medium">SEO Optimized</span>
               </div>
@@ -85,7 +85,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.15 }}
         >
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 sm:mb-24">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8 sm:mb-12">
             <button
               className="group relative px-8 py-4 bg-gradient-to-r from-primaryColor to-secondaryColor rounded-xl font-bold text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden"
               onClick={() => setIsModalOpen(true)}
@@ -124,7 +124,7 @@ export const Hero = () => {
               <img
                 src={dashboard.src}
                 alt="Dashboard showcasing web design work"
-                className="relative w-4/5 2xl:w-[1200px] mx-auto rounded-2xl border border-mainBorder shadow-2xl lg:top-6 xl:top-0 hover:scale-105 transition-transform duration-500"
+                className="relative w-4/5 2xl:w-[1000px] xl:w-[900px] lg:w-[800px] mx-auto rounded-2xl border border-mainBorder shadow-2xl hover:scale-105 transition-transform duration-500"
               />
               
               {/* Floating elements around dashboard */}
@@ -135,7 +135,7 @@ export const Hero = () => {
           </div>
         </motion.div>
         <div className="relative w-screen flex justify-center ">
-          <div className="shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-52 hidden lg:block">
+          <div className="shape-divider-bottom-1665343298 mt-4 sm:mt-8 md:mt-16 hidden lg:block">
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
