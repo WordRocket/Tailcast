@@ -26,7 +26,7 @@ const blogData = [
 export const Blog = () => (
   <section className="w-screen flex justify-center bg-bgDark2 relative ">
     <div className="absolute -top-16" id="blog" />
-    <div className="pb-0 pt-4 bg-bgDark2 2xl:w-[1200px] lg:w-[1000px] xl:w-[1150px]  ">
+    <div className="py-16 sm:py-20 lg:py-24 bg-bgDark2 2xl:w-[1200px] lg:w-[1000px] xl:w-[1150px]  ">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -34,7 +34,9 @@ export const Blog = () => (
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         <div className="container px-4 mb-20">
+        <div className="container px-4 mb-12">
           <div className="max-w-2xl text-center lg:text-left mb-16 mx-auto lg:ml-0 lg:mr-0">
+          <div className="max-w-2xl text-center lg:text-left mb-12 mx-auto lg:ml-0 lg:mr-0">
             <span className="block-subtitle">Our Insights</span>
             <h2 className="mt-6 mb-6 text-4xl lg:text-5xl font-bold font-heading text-primaryText">
               Design & Digital Marketing Insights

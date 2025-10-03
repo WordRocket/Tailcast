@@ -30,7 +30,7 @@ const testimonialsData = [
 ];
 
 export const Testimonials = () => (
-  <section className="w-full flex justify-center pt-16 mb-16 lg:mb-32 bg-bgDark2 relative">
+  <section className="w-full flex justify-center py-16 sm:py-20 lg:py-24 bg-bgDark2 relative">
     <div className="absolute -top-16" id="feedback" />
     <div className="flex flex-col w-full lg:w-[1150px] justify-center">
       <motion.div
@@ -41,6 +41,7 @@ export const Testimonials = () => (
       >
         <div className="block-subtitle text-center mb-6">Testimonials</div>
         <div className="block-big-title text-center mb-20 px-8 sm:px-24 md:px-48">
+        <div className="block-big-title text-center mb-12 px-8 sm:px-24 md:px-48">
           Hear What Our Clients Say
         </div>
 

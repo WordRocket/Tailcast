@@ -23,7 +23,7 @@ export const Pricing = () => {
   return (
     <section className="w-screen flex justify-center bg-bgDark2 relative">
       <div className="absolute -top-16" id="pricing" />
-      <div className="pb-20 pt-12 bg-bgDark2  2xl:w-[1150px] lg:w-[1050px]  md:w-4/5 ">
+      <div className="py-16 sm:py-20 lg:py-24 bg-bgDark2  2xl:w-[1150px] lg:w-[1050px]  md:w-4/5 ">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -32,6 +32,7 @@ export const Pricing = () => {
         >
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto text-center mb-16">
+            <div className="max-w-2xl mx-auto text-center mb-12">
               <span className="block-subtitle">Invest in Your Online Success</span>
               <h2 className="mt-6 mb-6 text-4xl lg:text-5xl font-bold font-heading text-primaryText">
                 Tailored Design Packages
