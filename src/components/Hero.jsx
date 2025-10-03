@@ -211,5 +211,6 @@ export const Hero = () => {
         <InvitationModal isOpen={isModalOpen} setIsOpen={setIsModalOpen} />
       )}
     </section>
+  )
   );
 };
