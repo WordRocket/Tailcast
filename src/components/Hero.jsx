@@ -9,7 +9,7 @@ export const Hero = () => {
 
   return (
     <section
-      className="w-screen flex justify-center items-center bg-gradient-to-br from-bgDark1 via-bgDark2 to-bgDark1 mb-16 sm:mb-20 lg:mb-24 relative overflow-hidden pb-16 sm:pb-20 lg:pb-24"
+      className="w-screen flex justify-center items-center bg-gradient-to-br from-bgDark1 via-bgDark2 to-bgDark1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 relative overflow-hidden pb-24 sm:pb-32 md:pb-44 lg:pb-0"
       id="home"
     >
       {/* Background decorative elements */}

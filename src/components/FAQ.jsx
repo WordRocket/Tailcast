@@ -25,7 +25,7 @@ const FAQData = [
 ];
 
 export const FAQ = () => (
-  <section className="relative py-16 sm:py-20 lg:py-24 bg-blueGray-50 overflow-hidden">
+  <section className="relative -mt-8 sm:mt-0 pt-12 sm:pt-16 pb-16 bg-blueGray-50 overflow-hidden">
     <div className="absolute -top-10" id="FAQ" />
     <motion.div
       initial={{ opacity: 0 }}
@@ -37,8 +37,6 @@ export const FAQ = () => (
         <div className="md:max-w-4xl mx-auto">
           <p className="mb-7 block-subtitle text-center">Have any questions?</p>
           <h2 className="mb-16 block-big-title text-center">
-          </h2>
-          <h2 className="mb-12 block-big-title text-center">
             Frequently Asked Questions
           </h2>
           <div className="mb-11 flex flex-wrap -m-1">
